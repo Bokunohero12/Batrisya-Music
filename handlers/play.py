@@ -157,7 +157,7 @@ async def play(_, message: Message):
             return await fallen.edit(
                 "» ɢɪᴠᴇ ᴍᴇ ᴍᴜsɪᴄ ɴᴀᴍᴇ ᴛᴏ ᴘʟᴀʏ"
             )
-        await fallen.edit("ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%")
+        await fallen.edit("⚡")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
